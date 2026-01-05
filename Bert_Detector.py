@@ -256,9 +256,10 @@ def detect_text(input_file_path, output_file_path):
 
 # 调用主函数
 if __name__ == '__main__':
-    input_json_path = r"C:\Users\1\Desktop\工作\dataset\中文数据集\原始数据\AI\doubao\test.json"
-    output_json_path = r"C:\Users\1\Desktop\工作\dataset\中文数据集\原始数据\人类\test_data1-3\bert_distinguish_output_ai.json"
+    input_json_path = ""
+    output_json_path = ""
     detect_text(input_json_path, output_json_path)
+
 
 
 
